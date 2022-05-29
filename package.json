@@ -1,7 +1,6 @@
 {
-  "name": "digitizeapp",
+  "name": "digitize",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "postcss ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
@@ -19,5 +18,14 @@
     "@tailwindcss/forms": "^0.4.0",
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.17"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khorshidhoseiny/Digitize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khorshidhoseiny/Digitize/issues"
+  },
+  "homepage": "https://github.com/khorshidhoseiny/Digitize#readme",
+  "description": ""
 }
